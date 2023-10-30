@@ -7,7 +7,7 @@ const PORT = 3000;
 
 const CLIENT_ID = "51780688";
 const CLIENT_SECRET = "b1bwhzPGfiF2fN1f8FwE";
-const REDIRECT_URI = "https://annaconda007.github.io/wb1_02_19//redirect";
+const REDIRECT_URI = "https://annaconda007.github.io/wb1_02_19/redirect";
 
 app.get("/get-token", async (req, res) => {
   const code = req.query.code;
